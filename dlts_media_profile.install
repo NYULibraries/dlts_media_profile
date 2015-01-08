@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function media_install() {
+
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+
+  standard_install();
+
+}
+
+function media_modules_installed($modules) {
+
+  if ( module_exists('overlay') ) {
+    module_disable( array('overlay') );
+  }
+
+  theme_disable( array('bartik') );
+
+}
