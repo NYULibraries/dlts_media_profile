@@ -3,8 +3,8 @@ description = Installation profile for DLTS Media site
 core = 7.x
 version = 7.0.1
 
-dependencies[] = dlts_interview
-dependencies[] = dlts_playable_bitstreams
-dependencies[] = dlts_nodeapi
+;dependencies[] = dlts_interview
+;dependencies[] = dlts_playable_bitstreams
+;dependencies[] = dlts_nodeapi
 
 files[] = media.profile
