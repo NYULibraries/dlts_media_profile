@@ -21,4 +21,10 @@ function media_modules_installed($modules) {
 
   theme_disable( array('bartik') );
 
+  theme_enable( array('rubik') );
+
+  variable_set('admin_theme', 'rubik');
+
+  variable_set('node_admin_theme', 1);
+
 }

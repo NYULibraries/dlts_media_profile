@@ -3,8 +3,44 @@ description = Installation profile for DLTS Media site
 core = 7.x
 version = 7.0.1
 
-;dependencies[] = dlts_interview
-;dependencies[] = dlts_playable_bitstreams
-;dependencies[] = dlts_nodeapi
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+
+; add this as a module
+
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = libraries
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = pathauto
+dependencies[] = jquery_update
+
+dependencies[] = uuid
+
+dependencies[] = dlts_interview
+dependencies[] = dlts_playable_bitstreams
+dependencies[] = dlts_nodeapi
+dependencies[] = dlts_utilities
 
 files[] = media.profile
