@@ -35,10 +35,8 @@ dependencies[] = diff
 dependencies[] = features
 dependencies[] = pathauto
 dependencies[] = jquery_update
-
 dependencies[] = uuid
 
-dependencies[] = dlts_interview
 dependencies[] = dlts_playable_bitstreams
 dependencies[] = dlts_nodeapi
 dependencies[] = dlts_utilities

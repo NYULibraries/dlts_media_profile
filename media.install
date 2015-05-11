@@ -19,13 +19,13 @@ function media_modules_installed($modules) {
     module_disable( array('overlay') );
   }
 
-  theme_disable( array('bartik') );
+  theme_disable( array ( 'bartik' ) );
 
-  theme_enable( array('rubik', 'bootstrap') );
+  theme_enable( array ( 'rubik' ) );
 
   variable_set('admin_theme', 'rubik');
 
-  variable_set('theme_default', 'bootstrap');
+  variable_set('theme_default', 'rubik');
 
   variable_set('node_admin_theme', 1);
 
